@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A7917A621C9E41F00D5C9AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917A521C9E41F00D5C9AB /* AppDelegate.swift */; };
+		3A7917A821C9E41F00D5C9AB /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917A721C9E41F00D5C9AB /* MasterViewController.swift */; };
+		3A7917AA21C9E41F00D5C9AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917A921C9E41F00D5C9AB /* DetailViewController.swift */; };
+		3A7917AD21C9E41F00D5C9AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7917AB21C9E41F00D5C9AB /* Main.storyboard */; };
+		3A7917AF21C9E42000D5C9AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7917AE21C9E42000D5C9AB /* Assets.xcassets */; };
+		3A7917B221C9E42000D5C9AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7917B021C9E42000D5C9AB /* LaunchScreen.storyboard */; };
+		3A7917BD21C9E42000D5C9AB /* HelloMyDropBoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917BC21C9E42000D5C9AB /* HelloMyDropBoxTests.swift */; };
+		3A7917C821C9E42000D5C9AB /* HelloMyDropBoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917C721C9E42000D5C9AB /* HelloMyDropBoxUITests.swift */; };
+		3A7917D621C9EF0B00D5C9AB /* DropboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7917D521C9EF0B00D5C9AB /* DropboxManager.swift */; };
+		3A7917D821C9F36300D5C9AB /* jobs_monkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3A7917D721C9F36300D5C9AB /* jobs_monkey.jpg */; };
+		411C4850CF48C00C78DD55DA /* Pods_HelloMyDropBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D19464BA8A3C6307FD726F /* Pods_HelloMyDropBoxUITests.framework */; };
+		70A27446ACB1DA6642193A0F /* Pods_HelloMyDropBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E960435A493D380930840DEE /* Pods_HelloMyDropBox.framework */; };
+		9DA1250870C308CB182F676C /* Pods_HelloMyDropBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF5B7997602FE55B779FC3F /* Pods_HelloMyDropBoxTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A7917B921C9E42000D5C9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A79179A21C9E41F00D5C9AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7917A121C9E41F00D5C9AB;
+			remoteInfo = HelloMyDropBox;
+		};
+		3A7917C421C9E42000D5C9AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A79179A21C9E41F00D5C9AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A7917A121C9E41F00D5C9AB;
+			remoteInfo = HelloMyDropBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17CCF65BCA3D3F9ED1B50441 /* Pods-HelloMyDropBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBox.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBox/Pods-HelloMyDropBox.release.xcconfig"; sourceTree = "<group>"; };
+		25D19464BA8A3C6307FD726F /* Pods_HelloMyDropBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMyDropBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB2634AFFCCDE84B752A3C5 /* Pods-HelloMyDropBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBox/Pods-HelloMyDropBox.debug.xcconfig"; sourceTree = "<group>"; };
+		3A7917A221C9E41F00D5C9AB /* HelloMyDropBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMyDropBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7917A521C9E41F00D5C9AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3A7917A721C9E41F00D5C9AB /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		3A7917A921C9E41F00D5C9AB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3A7917AC21C9E41F00D5C9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A7917AE21C9E42000D5C9AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A7917B121C9E42000D5C9AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A7917B321C9E42000D5C9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7917B821C9E42000D5C9AB /* HelloMyDropBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMyDropBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7917BC21C9E42000D5C9AB /* HelloMyDropBoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMyDropBoxTests.swift; sourceTree = "<group>"; };
+		3A7917BE21C9E42000D5C9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7917C321C9E42000D5C9AB /* HelloMyDropBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloMyDropBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A7917C721C9E42000D5C9AB /* HelloMyDropBoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMyDropBoxUITests.swift; sourceTree = "<group>"; };
+		3A7917C921C9E42000D5C9AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A7917D521C9EF0B00D5C9AB /* DropboxManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxManager.swift; sourceTree = "<group>"; };
+		3A7917D721C9F36300D5C9AB /* jobs_monkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jobs_monkey.jpg; sourceTree = "<group>"; };
+		4EE2EFF7EAD3CE741AD4A930 /* Pods-HelloMyDropBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBoxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBoxUITests/Pods-HelloMyDropBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DFF33A9C43BE27EB5747C7A /* Pods-HelloMyDropBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBoxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBoxUITests/Pods-HelloMyDropBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF5B7997602FE55B779FC3F /* Pods_HelloMyDropBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMyDropBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73B6FF10AAA163A8F5A0AC27 /* Pods-HelloMyDropBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBoxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBoxTests/Pods-HelloMyDropBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		C10E505B3E9C6E605F8D5DC1 /* Pods-HelloMyDropBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloMyDropBoxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloMyDropBoxTests/Pods-HelloMyDropBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E960435A493D380930840DEE /* Pods_HelloMyDropBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloMyDropBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A79179F21C9E41F00D5C9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A27446ACB1DA6642193A0F /* Pods_HelloMyDropBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917B521C9E42000D5C9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA1250870C308CB182F676C /* Pods_HelloMyDropBoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917C021C9E42000D5C9AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411C4850CF48C00C78DD55DA /* Pods_HelloMyDropBoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A79179921C9E41F00D5C9AB = {
+			isa = PBXGroup;
+			children = (
+				3A7917A421C9E41F00D5C9AB /* HelloMyDropBox */,
+				3A7917BB21C9E42000D5C9AB /* HelloMyDropBoxTests */,
+				3A7917C621C9E42000D5C9AB /* HelloMyDropBoxUITests */,
+				3A7917A321C9E41F00D5C9AB /* Products */,
+				FAA5FB72D3264B4DBEED977C /* Pods */,
+				8AB260D5ACEECF0A2E552DF3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3A7917A321C9E41F00D5C9AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A7917A221C9E41F00D5C9AB /* HelloMyDropBox.app */,
+				3A7917B821C9E42000D5C9AB /* HelloMyDropBoxTests.xctest */,
+				3A7917C321C9E42000D5C9AB /* HelloMyDropBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A7917A421C9E41F00D5C9AB /* HelloMyDropBox */ = {
+			isa = PBXGroup;
+			children = (
+				3A7917A521C9E41F00D5C9AB /* AppDelegate.swift */,
+				3A7917A721C9E41F00D5C9AB /* MasterViewController.swift */,
+				3A7917A921C9E41F00D5C9AB /* DetailViewController.swift */,
+				3A7917D521C9EF0B00D5C9AB /* DropboxManager.swift */,
+				3A7917AB21C9E41F00D5C9AB /* Main.storyboard */,
+				3A7917D721C9F36300D5C9AB /* jobs_monkey.jpg */,
+				3A7917AE21C9E42000D5C9AB /* Assets.xcassets */,
+				3A7917B021C9E42000D5C9AB /* LaunchScreen.storyboard */,
+				3A7917B321C9E42000D5C9AB /* Info.plist */,
+			);
+			path = HelloMyDropBox;
+			sourceTree = "<group>";
+		};
+		3A7917BB21C9E42000D5C9AB /* HelloMyDropBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7917BC21C9E42000D5C9AB /* HelloMyDropBoxTests.swift */,
+				3A7917BE21C9E42000D5C9AB /* Info.plist */,
+			);
+			path = HelloMyDropBoxTests;
+			sourceTree = "<group>";
+		};
+		3A7917C621C9E42000D5C9AB /* HelloMyDropBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A7917C721C9E42000D5C9AB /* HelloMyDropBoxUITests.swift */,
+				3A7917C921C9E42000D5C9AB /* Info.plist */,
+			);
+			path = HelloMyDropBoxUITests;
+			sourceTree = "<group>";
+		};
+		8AB260D5ACEECF0A2E552DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E960435A493D380930840DEE /* Pods_HelloMyDropBox.framework */,
+				6FF5B7997602FE55B779FC3F /* Pods_HelloMyDropBoxTests.framework */,
+				25D19464BA8A3C6307FD726F /* Pods_HelloMyDropBoxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA5FB72D3264B4DBEED977C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB2634AFFCCDE84B752A3C5 /* Pods-HelloMyDropBox.debug.xcconfig */,
+				17CCF65BCA3D3F9ED1B50441 /* Pods-HelloMyDropBox.release.xcconfig */,
+				C10E505B3E9C6E605F8D5DC1 /* Pods-HelloMyDropBoxTests.debug.xcconfig */,
+				73B6FF10AAA163A8F5A0AC27 /* Pods-HelloMyDropBoxTests.release.xcconfig */,
+				5DFF33A9C43BE27EB5747C7A /* Pods-HelloMyDropBoxUITests.debug.xcconfig */,
+				4EE2EFF7EAD3CE741AD4A930 /* Pods-HelloMyDropBoxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A7917A121C9E41F00D5C9AB /* HelloMyDropBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7917CC21C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBox" */;
+			buildPhases = (
+				39FE33D28814B3E4C257DD4A /* [CP] Check Pods Manifest.lock */,
+				3A79179E21C9E41F00D5C9AB /* Sources */,
+				3A79179F21C9E41F00D5C9AB /* Frameworks */,
+				3A7917A021C9E41F00D5C9AB /* Resources */,
+				5C0420073C38DD2102A62D1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloMyDropBox;
+			productName = HelloMyDropBox;
+			productReference = 3A7917A221C9E41F00D5C9AB /* HelloMyDropBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A7917B721C9E42000D5C9AB /* HelloMyDropBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7917CF21C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBoxTests" */;
+			buildPhases = (
+				11DCB9DF3366265128A4E93E /* [CP] Check Pods Manifest.lock */,
+				3A7917B421C9E42000D5C9AB /* Sources */,
+				3A7917B521C9E42000D5C9AB /* Frameworks */,
+				3A7917B621C9E42000D5C9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7917BA21C9E42000D5C9AB /* PBXTargetDependency */,
+			);
+			name = HelloMyDropBoxTests;
+			productName = HelloMyDropBoxTests;
+			productReference = 3A7917B821C9E42000D5C9AB /* HelloMyDropBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A7917C221C9E42000D5C9AB /* HelloMyDropBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A7917D221C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBoxUITests" */;
+			buildPhases = (
+				3C55E45700E81A9B20C45A73 /* [CP] Check Pods Manifest.lock */,
+				3A7917BF21C9E42000D5C9AB /* Sources */,
+				3A7917C021C9E42000D5C9AB /* Frameworks */,
+				3A7917C121C9E42000D5C9AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A7917C521C9E42000D5C9AB /* PBXTargetDependency */,
+			);
+			name = HelloMyDropBoxUITests;
+			productName = HelloMyDropBoxUITests;
+			productReference = 3A7917C321C9E42000D5C9AB /* HelloMyDropBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A79179A21C9E41F00D5C9AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = orange;
+				TargetAttributes = {
+					3A7917A121C9E41F00D5C9AB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					3A7917B721C9E42000D5C9AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3A7917A121C9E41F00D5C9AB;
+					};
+					3A7917C221C9E42000D5C9AB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3A7917A121C9E41F00D5C9AB;
+					};
+				};
+			};
+			buildConfigurationList = 3A79179D21C9E41F00D5C9AB /* Build configuration list for PBXProject "HelloMyDropBox" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A79179921C9E41F00D5C9AB;
+			productRefGroup = 3A7917A321C9E41F00D5C9AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A7917A121C9E41F00D5C9AB /* HelloMyDropBox */,
+				3A7917B721C9E42000D5C9AB /* HelloMyDropBoxTests */,
+				3A7917C221C9E42000D5C9AB /* HelloMyDropBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A7917A021C9E41F00D5C9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7917B221C9E42000D5C9AB /* LaunchScreen.storyboard in Resources */,
+				3A7917AF21C9E42000D5C9AB /* Assets.xcassets in Resources */,
+				3A7917D821C9F36300D5C9AB /* jobs_monkey.jpg in Resources */,
+				3A7917AD21C9E41F00D5C9AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917B621C9E42000D5C9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917C121C9E42000D5C9AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11DCB9DF3366265128A4E93E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMyDropBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39FE33D28814B3E4C257DD4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMyDropBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C55E45700E81A9B20C45A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloMyDropBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C0420073C38DD2102A62D1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyDropBox/Pods-HelloMyDropBox-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyDropbox/SwiftyDropbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyDropbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloMyDropBox/Pods-HelloMyDropBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A79179E21C9E41F00D5C9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7917D621C9EF0B00D5C9AB /* DropboxManager.swift in Sources */,
+				3A7917AA21C9E41F00D5C9AB /* DetailViewController.swift in Sources */,
+				3A7917A821C9E41F00D5C9AB /* MasterViewController.swift in Sources */,
+				3A7917A621C9E41F00D5C9AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917B421C9E42000D5C9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7917BD21C9E42000D5C9AB /* HelloMyDropBoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7917BF21C9E42000D5C9AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7917C821C9E42000D5C9AB /* HelloMyDropBoxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A7917BA21C9E42000D5C9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7917A121C9E41F00D5C9AB /* HelloMyDropBox */;
+			targetProxy = 3A7917B921C9E42000D5C9AB /* PBXContainerItemProxy */;
+		};
+		3A7917C521C9E42000D5C9AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A7917A121C9E41F00D5C9AB /* HelloMyDropBox */;
+			targetProxy = 3A7917C421C9E42000D5C9AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A7917AB21C9E41F00D5C9AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7917AC21C9E41F00D5C9AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A7917B021C9E42000D5C9AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A7917B121C9E42000D5C9AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A7917CA21C9E42000D5C9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A7917CB21C9E42000D5C9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A7917CD21C9E42000D5C9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB2634AFFCCDE84B752A3C5 /* Pods-HelloMyDropBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VZ63GX87W;
+				INFOPLIST_FILE = HelloMyDropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A7917CE21C9E42000D5C9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17CCF65BCA3D3F9ED1B50441 /* Pods-HelloMyDropBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VZ63GX87W;
+				INFOPLIST_FILE = HelloMyDropBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A7917D021C9E42000D5C9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C10E505B3E9C6E605F8D5DC1 /* Pods-HelloMyDropBoxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloMyDropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMyDropBox.app/HelloMyDropBox";
+			};
+			name = Debug;
+		};
+		3A7917D121C9E42000D5C9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B6FF10AAA163A8F5A0AC27 /* Pods-HelloMyDropBoxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloMyDropBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloMyDropBox.app/HelloMyDropBox";
+			};
+			name = Release;
+		};
+		3A7917D321C9E42000D5C9AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DFF33A9C43BE27EB5747C7A /* Pods-HelloMyDropBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloMyDropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloMyDropBox;
+			};
+			name = Debug;
+		};
+		3A7917D421C9E42000D5C9AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE2EFF7EAD3CE741AD4A930 /* Pods-HelloMyDropBoxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HelloMyDropBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = orange.HelloMyDropBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HelloMyDropBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A79179D21C9E41F00D5C9AB /* Build configuration list for PBXProject "HelloMyDropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7917CA21C9E42000D5C9AB /* Debug */,
+				3A7917CB21C9E42000D5C9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7917CC21C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7917CD21C9E42000D5C9AB /* Debug */,
+				3A7917CE21C9E42000D5C9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7917CF21C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7917D021C9E42000D5C9AB /* Debug */,
+				3A7917D121C9E42000D5C9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A7917D221C9E42000D5C9AB /* Build configuration list for PBXNativeTarget "HelloMyDropBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7917D321C9E42000D5C9AB /* Debug */,
+				3A7917D421C9E42000D5C9AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A79179A21C9E41F00D5C9AB /* Project object */;
+}
